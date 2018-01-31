@@ -4,4 +4,4 @@
 ![ScreenShot](titleHoverAndTitleSwitchVc.gif)
 
 ## Usage
-### 自己琢磨吧,琢磨不懂的加qq909434933
+### 自己琢磨吧,琢磨不懂的加qq[909434933]
