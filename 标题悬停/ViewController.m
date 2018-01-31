@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "LLTitleScrollView.h"
 #import "LLContentViewController.h"
-
+#import "LLTabViewHeaderView.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 
 @property (nonatomic,weak) UIScrollView * scrollView;
@@ -24,14 +24,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.titles = @[@"精选",@"婚礼策划",@"婚纱摄影",@"婚礼金沙",@"四大金刚"];
+    self.titles = @[@"新闻1",@"新闻2",@"新闻3",@"新闻4",@"新闻5"];
     for (NSString *  title in self.titles) {
         LLContentViewController * contentVc = [LLContentViewController new];
         contentVc.title = title;
         [self addChildViewController:contentVc];
     }
     self.canScroll = true;
-    UIView * tabHeaderView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 900)];
+    LLTabViewHeaderView * tabHeaderView = [[LLTabViewHeaderView alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 250)];
     tabHeaderView.backgroundColor = [UIColor yellowColor];
     UITableView * tabView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tabView = tabView;
@@ -43,6 +43,23 @@
     tabView.tableHeaderView = tabHeaderView;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeScrollStatus) name:@"leaveTop" object:nil];
+    
+    
+    __weak typeof(self) weakSelf = self;
+    
+    //..下拉刷新
+    tabView.header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        [weakSelf.tabView.mj_header endRefreshing];
+    }];
+    
+   
+    
+    //..上拉刷新
+    tabView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        [weakSelf.tabView.mj_footer endRefreshing];
+    }];
+    
+    tabView.footer.hidden = YES;
     
    
     
@@ -112,7 +129,6 @@
         scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.view.frame) * self.titles.count, 0);
         
         LLContentViewController * firstContentVc = self.childViewControllers.firstObject;
-        firstContentVc.index = 0 ;
         [scrollView addSubview:firstContentVc.view];
         firstContentVc.view.frame = scrollView.bounds;
         firstContentVc.view.backgroundColor = [UIColor brownColor];
@@ -142,7 +158,6 @@
         self.currentIndex = index;
         self.titleScrollView.selectedIndex = index;
         LLContentViewController * childVc = self.childViewControllers[index];
-        childVc.index = index;
          childVc.view.backgroundColor = [UIColor brownColor];
         if (index %2) {
             childVc.view.backgroundColor = [UIColor blueColor];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913ACEADF85A06F7FD73BD51 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A11241BC949C2D708EBCD /* Pods_____.framework */; };
 		B5ABBC0B2019CF7200E9B1DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC0A2019CF7200E9B1DB /* AppDelegate.m */; };
 		B5ABBC0E2019CF7200E9B1DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC0D2019CF7200E9B1DB /* ViewController.m */; };
 		B5ABBC112019CF7200E9B1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5ABBC0F2019CF7200E9B1DB /* Main.storyboard */; };
@@ -16,9 +17,22 @@
 		B5ABBC232019CF7200E9B1DB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC222019CF7200E9B1DB /* ____Tests.m */; };
 		B5ABBC2E2019CF7200E9B1DB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC2D2019CF7200E9B1DB /* ____UITests.m */; };
 		B5ABBC3D2019D5C400E9B1DB /* LLTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC3C2019D5C400E9B1DB /* LLTitleScrollView.m */; };
-		B5ABBC432019D9BB00E9B1DB /* LLContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC422019D9BB00E9B1DB /* LLContentViewController.m */; };
 		B5ABBC462019DDB200E9B1DB /* LLContentTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ABBC452019DDB200E9B1DB /* LLContentTabView.m */; };
 		B5D04B69201F015500B1979D /* LLTabViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D04B68201F015500B1979D /* LLTabViewHeaderView.m */; };
+		B5D5522E202167940042838D /* UUMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5522D202167940042838D /* UUMarqueeView.m */; };
+		B5D552322021696E0042838D /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D552312021696E0042838D /* MSWeakTimer.m */; };
+		B5D5524920216DED0042838D /* LLContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5523420216DED0042838D /* LLContentViewController.m */; };
+		B5D5524A20216DED0042838D /* Ads.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5523720216DED0042838D /* Ads.m */; };
+		B5D5524B20216DED0042838D /* Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5523920216DED0042838D /* Editor.m */; };
+		B5D5524C20216DED0042838D /* Imgextra.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5523B20216DED0042838D /* Imgextra.m */; };
+		B5D5524D20216DED0042838D /* ThreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5523D20216DED0042838D /* ThreeModel.m */; };
+		B5D5524E20216DED0042838D /* ThreeBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5524020216DED0042838D /* ThreeBaseCell.m */; };
+		B5D5524F20216DED0042838D /* ThreeFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5524220216DED0042838D /* ThreeFirstCell.m */; };
+		B5D5525020216DED0042838D /* ThreeFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5524420216DED0042838D /* ThreeFourthCell.m */; };
+		B5D5525120216DED0042838D /* ThreeSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5524620216DED0042838D /* ThreeSecondCell.m */; };
+		B5D5525220216DED0042838D /* ThreeThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5524820216DED0042838D /* ThreeThirdCell.m */; };
+		B5D5525620216F450042838D /* XYString.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D5525520216F450042838D /* XYString.m */; };
+		E626483F3F26C0856BA94AE3 /* Pods_____UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B0D1CA04B28C49549FAB6C /* Pods_____UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02126EFB58E5D5D6C85A9FCD /* Pods-标题悬停.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-标题悬停.debug.xcconfig"; path = "Pods/Target Support Files/Pods-标题悬停/Pods-标题悬停.debug.xcconfig"; sourceTree = "<group>"; };
+		04C56388BBC20261AD0D4C03 /* Pods-标题悬停UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-标题悬停UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-标题悬停UITests/Pods-标题悬停UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A9D03B65CC019B8A62366A2 /* Pods-标题悬停UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-标题悬停UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-标题悬停UITests/Pods-标题悬停UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C40598317B184A75566FCBB /* Pods-标题悬停.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-标题悬停.release.xcconfig"; path = "Pods/Target Support Files/Pods-标题悬停/Pods-标题悬停.release.xcconfig"; sourceTree = "<group>"; };
+		3D4A11241BC949C2D708EBCD /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54ECDC620215DB300419F03 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B5ABBC062019CF7200E9B1DB /* 标题悬停.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "标题悬停.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5ABBC092019CF7200E9B1DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5ABBC0A2019CF7200E9B1DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,19 +70,44 @@
 		B5ABBC172019CF7200E9B1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5ABBC182019CF7200E9B1DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5ABBC1E2019CF7200E9B1DB /* 标题悬停Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "标题悬停Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5ABBC222019CF7200E9B1DB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		B5ABBC222019CF7200E9B1DB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
 		B5ABBC242019CF7200E9B1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5ABBC292019CF7200E9B1DB /* 标题悬停UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "标题悬停UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5ABBC2D2019CF7200E9B1DB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		B5ABBC2D2019CF7200E9B1DB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
 		B5ABBC2F2019CF7200E9B1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5ABBC3B2019D5C300E9B1DB /* LLTitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTitleScrollView.h; sourceTree = "<group>"; };
 		B5ABBC3C2019D5C400E9B1DB /* LLTitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTitleScrollView.m; sourceTree = "<group>"; };
-		B5ABBC412019D9BB00E9B1DB /* LLContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContentViewController.h; sourceTree = "<group>"; };
-		B5ABBC422019D9BB00E9B1DB /* LLContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContentViewController.m; sourceTree = "<group>"; };
 		B5ABBC442019DDB200E9B1DB /* LLContentTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContentTabView.h; sourceTree = "<group>"; };
 		B5ABBC452019DDB200E9B1DB /* LLContentTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContentTabView.m; sourceTree = "<group>"; };
 		B5D04B67201F015500B1979D /* LLTabViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabViewHeaderView.h; sourceTree = "<group>"; };
 		B5D04B68201F015500B1979D /* LLTabViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTabViewHeaderView.m; sourceTree = "<group>"; };
+		B5D5522C202167940042838D /* UUMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUMarqueeView.h; sourceTree = "<group>"; };
+		B5D5522D202167940042838D /* UUMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUMarqueeView.m; sourceTree = "<group>"; };
+		B5D552302021696E0042838D /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		B5D552312021696E0042838D /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		B5D5523320216DED0042838D /* LLContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLContentViewController.h; sourceTree = "<group>"; };
+		B5D5523420216DED0042838D /* LLContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLContentViewController.m; sourceTree = "<group>"; };
+		B5D5523620216DED0042838D /* Ads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ads.h; sourceTree = "<group>"; };
+		B5D5523720216DED0042838D /* Ads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ads.m; sourceTree = "<group>"; };
+		B5D5523820216DED0042838D /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
+		B5D5523920216DED0042838D /* Editor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Editor.m; sourceTree = "<group>"; };
+		B5D5523A20216DED0042838D /* Imgextra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imgextra.h; sourceTree = "<group>"; };
+		B5D5523B20216DED0042838D /* Imgextra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imgextra.m; sourceTree = "<group>"; };
+		B5D5523C20216DED0042838D /* ThreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeModel.h; sourceTree = "<group>"; };
+		B5D5523D20216DED0042838D /* ThreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeModel.m; sourceTree = "<group>"; };
+		B5D5523F20216DED0042838D /* ThreeBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeBaseCell.h; sourceTree = "<group>"; };
+		B5D5524020216DED0042838D /* ThreeBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeBaseCell.m; sourceTree = "<group>"; };
+		B5D5524120216DED0042838D /* ThreeFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFirstCell.h; sourceTree = "<group>"; };
+		B5D5524220216DED0042838D /* ThreeFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFirstCell.m; sourceTree = "<group>"; };
+		B5D5524320216DED0042838D /* ThreeFourthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeFourthCell.h; sourceTree = "<group>"; };
+		B5D5524420216DED0042838D /* ThreeFourthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeFourthCell.m; sourceTree = "<group>"; };
+		B5D5524520216DED0042838D /* ThreeSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeSecondCell.h; sourceTree = "<group>"; };
+		B5D5524620216DED0042838D /* ThreeSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSecondCell.m; sourceTree = "<group>"; };
+		B5D5524720216DED0042838D /* ThreeThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeThirdCell.h; sourceTree = "<group>"; };
+		B5D5524820216DED0042838D /* ThreeThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeThirdCell.m; sourceTree = "<group>"; };
+		B5D5525420216F450042838D /* XYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYString.h; sourceTree = "<group>"; };
+		B5D5525520216F450042838D /* XYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYString.m; sourceTree = "<group>"; };
+		E6B0D1CA04B28C49549FAB6C /* Pods_____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913ACEADF85A06F7FD73BD51 /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +130,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E626483F3F26C0856BA94AE3 /* Pods_____UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B06F7E538D9E071F1FE9FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D4A11241BC949C2D708EBCD /* Pods_____.framework */,
+				E6B0D1CA04B28C49549FAB6C /* Pods_____UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9A3F6BA0CFBE2631137CEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02126EFB58E5D5D6C85A9FCD /* Pods-标题悬停.debug.xcconfig */,
+				3C40598317B184A75566FCBB /* Pods-标题悬停.release.xcconfig */,
+				04C56388BBC20261AD0D4C03 /* Pods-标题悬停UITests.debug.xcconfig */,
+				1A9D03B65CC019B8A62366A2 /* Pods-标题悬停UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B5ABBBFD2019CF7200E9B1DB = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +164,8 @@
 				B5ABBC212019CF7200E9B1DB /* 标题悬停Tests */,
 				B5ABBC2C2019CF7200E9B1DB /* 标题悬停UITests */,
 				B5ABBC072019CF7200E9B1DB /* Products */,
+				5C9A3F6BA0CFBE2631137CEC /* Pods */,
+				1B06F7E538D9E071F1FE9FE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,23 +182,28 @@
 		B5ABBC082019CF7200E9B1DB /* 标题悬停 */ = {
 			isa = PBXGroup;
 			children = (
+				B5D5522B202167940042838D /* UUMarqueeView */,
 				B5ABBC092019CF7200E9B1DB /* AppDelegate.h */,
 				B5ABBC0A2019CF7200E9B1DB /* AppDelegate.m */,
 				B5ABBC0C2019CF7200E9B1DB /* ViewController.h */,
 				B5ABBC0D2019CF7200E9B1DB /* ViewController.m */,
 				B5D04B67201F015500B1979D /* LLTabViewHeaderView.h */,
 				B5D04B68201F015500B1979D /* LLTabViewHeaderView.m */,
-				B5ABBC412019D9BB00E9B1DB /* LLContentViewController.h */,
-				B5ABBC422019D9BB00E9B1DB /* LLContentViewController.m */,
 				B5ABBC442019DDB200E9B1DB /* LLContentTabView.h */,
 				B5ABBC452019DDB200E9B1DB /* LLContentTabView.m */,
 				B5ABBC3B2019D5C300E9B1DB /* LLTitleScrollView.h */,
 				B5ABBC3C2019D5C400E9B1DB /* LLTitleScrollView.m */,
+				B5D5523320216DED0042838D /* LLContentViewController.h */,
+				B5D5523420216DED0042838D /* LLContentViewController.m */,
+				B5D5525320216F450042838D /* XYString */,
+				B5D5523520216DED0042838D /* model */,
+				B5D5523E20216DED0042838D /* view */,
 				B5ABBC0F2019CF7200E9B1DB /* Main.storyboard */,
 				B5ABBC122019CF7200E9B1DB /* Assets.xcassets */,
 				B5ABBC142019CF7200E9B1DB /* LaunchScreen.storyboard */,
 				B5ABBC172019CF7200E9B1DB /* Info.plist */,
 				B5ABBC182019CF7200E9B1DB /* main.m */,
+				B54ECDC620215DB300419F03 /* PrefixHeader.pch */,
 			);
 			path = "标题悬停";
 			sourceTree = "<group>";
@@ -152,6 +226,66 @@
 			path = "标题悬停UITests";
 			sourceTree = "<group>";
 		};
+		B5D5522B202167940042838D /* UUMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5522F2021696E0042838D /* MSWeakTimer */,
+				B5D5522C202167940042838D /* UUMarqueeView.h */,
+				B5D5522D202167940042838D /* UUMarqueeView.m */,
+			);
+			path = UUMarqueeView;
+			sourceTree = "<group>";
+		};
+		B5D5522F2021696E0042838D /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B5D552302021696E0042838D /* MSWeakTimer.h */,
+				B5D552312021696E0042838D /* MSWeakTimer.m */,
+			);
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		B5D5523520216DED0042838D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5523620216DED0042838D /* Ads.h */,
+				B5D5523720216DED0042838D /* Ads.m */,
+				B5D5523820216DED0042838D /* Editor.h */,
+				B5D5523920216DED0042838D /* Editor.m */,
+				B5D5523A20216DED0042838D /* Imgextra.h */,
+				B5D5523B20216DED0042838D /* Imgextra.m */,
+				B5D5523C20216DED0042838D /* ThreeModel.h */,
+				B5D5523D20216DED0042838D /* ThreeModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B5D5523E20216DED0042838D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5523F20216DED0042838D /* ThreeBaseCell.h */,
+				B5D5524020216DED0042838D /* ThreeBaseCell.m */,
+				B5D5524120216DED0042838D /* ThreeFirstCell.h */,
+				B5D5524220216DED0042838D /* ThreeFirstCell.m */,
+				B5D5524320216DED0042838D /* ThreeFourthCell.h */,
+				B5D5524420216DED0042838D /* ThreeFourthCell.m */,
+				B5D5524520216DED0042838D /* ThreeSecondCell.h */,
+				B5D5524620216DED0042838D /* ThreeSecondCell.m */,
+				B5D5524720216DED0042838D /* ThreeThirdCell.h */,
+				B5D5524820216DED0042838D /* ThreeThirdCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B5D5525320216F450042838D /* XYString */ = {
+			isa = PBXGroup;
+			children = (
+				B5D5525420216F450042838D /* XYString.h */,
+				B5D5525520216F450042838D /* XYString.m */,
+			);
+			path = XYString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5ABBC322019CF7200E9B1DB /* Build configuration list for PBXNativeTarget "标题悬停" */;
 			buildPhases = (
+				DC25E99D6CBE5058654C7159 /* [CP] Check Pods Manifest.lock */,
 				B5ABBC022019CF7200E9B1DB /* Sources */,
 				B5ABBC032019CF7200E9B1DB /* Frameworks */,
 				B5ABBC042019CF7200E9B1DB /* Resources */,
+				A7D8E9DE3EFFD44AC353B719 /* [CP] Embed Pods Frameworks */,
+				4C1B782C75D95408D5A39CE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5ABBC382019CF7200E9B1DB /* Build configuration list for PBXNativeTarget "标题悬停UITests" */;
 			buildPhases = (
+				06E32C45CF2DDE6C06D541FC /* [CP] Check Pods Manifest.lock */,
 				B5ABBC252019CF7200E9B1DB /* Sources */,
 				B5ABBC262019CF7200E9B1DB /* Frameworks */,
 				B5ABBC272019CF7200E9B1DB /* Resources */,
+				752669DDAB404D76E4C29E8D /* [CP] Embed Pods Frameworks */,
+				B0CF5BA7441B2E9CE136AA73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,18 +420,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E32C45CF2DDE6C06D541FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-标题悬停UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1B782C75D95408D5A39CE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-标题悬停/Pods-标题悬停-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752669DDAB404D76E4C29E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-标题悬停UITests/Pods-标题悬停UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D8E9DE3EFFD44AC353B719 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-标题悬停/Pods-标题悬停-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-标题悬停/Pods-标题悬停-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CF5BA7441B2E9CE136AA73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-标题悬停UITests/Pods-标题悬停UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC25E99D6CBE5058654C7159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-标题悬停-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5ABBC022019CF7200E9B1DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D5524A20216DED0042838D /* Ads.m in Sources */,
 				B5ABBC0E2019CF7200E9B1DB /* ViewController.m in Sources */,
-				B5ABBC432019D9BB00E9B1DB /* LLContentViewController.m in Sources */,
+				B5D5524B20216DED0042838D /* Editor.m in Sources */,
+				B5D5525120216DED0042838D /* ThreeSecondCell.m in Sources */,
 				B5D04B69201F015500B1979D /* LLTabViewHeaderView.m in Sources */,
+				B5D5525020216DED0042838D /* ThreeFourthCell.m in Sources */,
 				B5ABBC192019CF7200E9B1DB /* main.m in Sources */,
 				B5ABBC3D2019D5C400E9B1DB /* LLTitleScrollView.m in Sources */,
 				B5ABBC462019DDB200E9B1DB /* LLContentTabView.m in Sources */,
+				B5D5525620216F450042838D /* XYString.m in Sources */,
+				B5D5524920216DED0042838D /* LLContentViewController.m in Sources */,
+				B5D5524E20216DED0042838D /* ThreeBaseCell.m in Sources */,
+				B5D5524C20216DED0042838D /* Imgextra.m in Sources */,
+				B5D5524F20216DED0042838D /* ThreeFirstCell.m in Sources */,
 				B5ABBC0B2019CF7200E9B1DB /* AppDelegate.m in Sources */,
+				B5D552322021696E0042838D /* MSWeakTimer.m in Sources */,
+				B5D5525220216DED0042838D /* ThreeThirdCell.m in Sources */,
+				B5D5524D20216DED0042838D /* ThreeModel.m in Sources */,
+				B5D5522E202167940042838D /* UUMarqueeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,31 +718,41 @@
 		};
 		B5ABBC332019CF7200E9B1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02126EFB58E5D5D6C85A9FCD /* Pods-标题悬停.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9EV8487M2;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "标题悬停/PrefixHeader.pch";
 				INFOPLIST_FILE = "标题悬停/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B5ABBC342019CF7200E9B1DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C40598317B184A75566FCBB /* Pods-标题悬停.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9EV8487M2;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "标题悬停/PrefixHeader.pch";
 				INFOPLIST_FILE = "标题悬停/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -512,6 +788,7 @@
 		};
 		B5ABBC392019CF7200E9B1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C56388BBC20261AD0D4C03 /* Pods-标题悬停UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9EV8487M2;
@@ -526,6 +803,7 @@
 		};
 		B5ABBC3A2019CF7200E9B1DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9D03B65CC019B8A62366A2 /* Pods-标题悬停UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9EV8487M2;

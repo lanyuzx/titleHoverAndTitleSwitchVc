@@ -1,3 +1,2 @@
-# titleHoverAndTitleSwitchVc
-
-#使用两个tabView实现联动,实现标题悬浮以及标题左右切换
+# suspensionAndTitleSwitch
+使用两个tabView 实现标题悬停以及左右切换控制器  完美实现下拉刷新
